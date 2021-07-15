@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap");
+
+.section {
+  width: 100%;
+  height: auto;
+}
+
+.footer-container {
+  background-color: black;
+  height: 40vh;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2vw;
+  color: white;
+  font-family: Open Sans;
+}
+.footer-container .ptc-container {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  margin-bottom: 1vw;
+}
+.footer-container .ptc-container .ptc-icon {
+  margin: 0;
+  padding: 0;
+}
+.footer-container .ptc-container .ptc-title {
+  font-style: italic;
+  line-height: 3em;
+  margin-top: -3vh;
+}
+.footer-container .ptc-container .ptc-motto {
+  margin: 0;
+  margin-top: 1.5vh;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.footer-container .ptc-container .social-icons img {
+  height: 2rem;
+  height: 20px;
+  width: 20px;
+  padding-right: 27px;
+  padding-top: 12px;
+}
+.footer-container .ptc-container .return-button {
+  display: flex;
+  height: 4.5vh;
+  align-items: center;
+  width: fit-content;
+  font-size: 1.2rem;
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: arial;
+  text-underline-position: unset;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 600ms;
+}
+
+.legal-container {
+  display: flex;
+  flex-direction: column;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 30vw;
+}
+
+.legal-title {
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.legal-content {
+  text-decoration: unset;
+  color: unset;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer-container {
+    margin: 0;
+    height: fit-content;
+  }
+  .footer-container .ptc-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-container .ptc-container .ptc-icon {
+    margin: 0;
+    padding: 0;
+  }
+  .footer-container .ptc-container .ptc-title {
+    font-style: italic;
+    line-height: 1.5em;
+  }
+  .footer-container .ptc-container .ptc-motto {
+    margin: 0;
+    padding-top: 3vh;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  .footer-container .ptc-container .social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-container .ptc-container .social-icons img {
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    padding: 0 10px;
+    padding-top: 12px;
+  }
+  .footer-container .ptc-container .return-button {
+    height: 6vh;
+    align-self: center;
+    justify-content: center;
+    width: 60vw;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 5vh;
+    padding: 0;
+    transition: 600ms;
+  }
+}

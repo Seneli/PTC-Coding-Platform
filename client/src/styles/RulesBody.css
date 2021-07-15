@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap");
+
+.container {
+  min-width: 50%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+}
+@media only screen and (min-width: 1097px) {
+  .container {
+    width: 768px;
+    min-width: 50%;
+  }
+}
+
+.box {
+  padding: 20px;
+  width: 100%;
+  /* width: 70vw; */
+  /* width: 45%; */
+}
+
+.title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.title1 {
+  color: #ff424f;
+  margin-bottom: 1.25vw;
+}
+
+.title2 {
+  color: #ff6830;
+}
+
+.title3 {
+  color: #ff8b0f;
+}
+
+.title4 {
+  color: #92af63;
+}
+
+.title5 {
+  color: #1b9cf7;
+}
+
+.title6 {
+  color: #7c72e8;
+  margin-bottom: 1.25vw;
+}
+
+.text {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.ig-link {
+  text-decoration: underline;
+}
+ 
+.technical-issues div{
+  margin-bottom: 15px;
+}
+
+.technical-issues li{
+  margin-bottom: 5px;
+}
+
+.margin-up{
+  margin-top: 20px;
+}

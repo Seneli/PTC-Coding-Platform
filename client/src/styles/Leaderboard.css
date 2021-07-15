@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+@import url("//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap");
+#leaderboard {
+  display: flex;
+  flex-direction: column;
+  /* min-height: 200px; */
+}
+table {
+  margin: 50px 0;
+  align-self: center;
+  font-family: Nunito;
+  width: 40%;
+  border-collapse: collapse;
+  text-align: center;
+  overflow: hidden;
+  min-height: 200px;
+}
+table .titleHeader {
+  color: white;
+}
+table td,
+table th {
+  border-top: 3px solid #e6e7e9;
+  padding: 10px;
+}
+table th {
+  background-color: black;
+}
+table tr:nth-of-type(even) td {
+  background-color: #f9fafc;
+}
+.mobile-header {
+  display: none;
+}
+@media only screen and (max-width: 760px) {
+  p {
+    display: block;
+    font-weight: bold;
+  }
+  table tr td:not(:first-child),
+  table tr th:not(:first-child),
+  table tr td:not(.total-val) {
+    display: none;
+  }
+  table tr:nth-of-type(even) td:first-child {
+    background-color: #fff;
+  }
+  table tr:nth-of-type(odd) td:first-child {
+    background-color: white;
+  }
+  table tr:nth-of-type(even) td:not(:first-child) {
+    background-color: white;
+  }
+  table tr th:first-child {
+    width: 100%;
+    display: block;
+  }
+  table tr th:not(:first-child) {
+    width: 40%;
+    transition: transform 0.4s ease-out;
+    transform: translateY(-9999px);
+    position: relative;
+    z-index: -1;
+  }
+  table tr td:not(:first-child) {
+    transition: transform 0.4s ease-out;
+    transform: translateY(-9999px);
+    width: 60%;
+    position: relative;
+    z-index: -1;
+  }
+  table tr td:first-child {
+    display: block;
+    cursor: pointer;
+  }
+  table tr.total th {
+    width: 25%;
+    display: inline-block;
+  }
+  table tr td.total-val {
+    display: inline-block;
+    transform: translateY(0);
+    width: 75%;
+  }
+}
+
+.week-row{
+  background-color: rgb(108, 189, 171);
+}

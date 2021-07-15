@@ -1,0 +1,35 @@
+.popup {
+  position: fixed;
+  z-index: 500;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-inner {
+  display: flex;
+  z-index: 500;
+  flex-direction: column;
+  position: relative;
+  padding: 32px;
+  border-radius: 1.5em;
+  /* z-index: 2; */
+  width: 400px;
+  height: 600px;
+  /* max-width: 640px; */
+  background-color: #fff;
+}
+
+.close-btn {
+  width: fit-content;
+  align-self: flex-end;
+  color: black;
+  transform: scale(1.2);
+  background-color: #fff;
+}

@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
+@import url("//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap");
+
+body,
+html {
+  margin: 0;
+}
+
+.menu {
+  position: relative;
+  z-index: 0;
+}
+
+a {
+  font-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.item {
+  background: white;
+  box-sizing: border-box;
+  color: black;
+  font-style: none;
+  text-decoration: none;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+.item:hover {
+  color: black;
+  background-color: rgb(231, 229, 229);
+}
+
+.open {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.title-section {
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: column;
+  /* width: 65%; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.title-text {
+  font-family: LuloCleanW01-OneBold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.header {
+  /* font: bold 14px Montserrat, arial, sans-serif; */
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 0.9rem;
+  height: 3vw;
+  /* margin: 1em 1em; */
+  margin: 10px auto 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+  width: 53%;
+  /* width: 600px; */
+  text-align: center;
+}
+.header-text {
+  display: table-cell;
+  /* width: fit-content; */
+  /* position: relative; */
+  /* padding: 1.5em 0; */
+}
+
+Link:hover,
+Link:visited,
+Link:link,
+Link:active {
+  text-decoration: none;
+}
+
+.nav-dropdown {
+  color: black;
+  text-transform: uppercase;
+  font-style: none;
+  text-decoration: none;
+  /* letter-spacing: 0.15em; */
+  display: inline-block;
+  padding: 1em 1em;
+  position: relative;
+}
+
+.nav {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  /* letter-spacing: 0.15em; */
+  display: inline-block;
+  padding: 1em 1em;
+  position: relative;
+}
+.nav:active {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.nav:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.nav:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

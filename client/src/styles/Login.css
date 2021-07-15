@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap");
+
+.login-body {
+  width: 360px;
+  padding: 10px 0;
+  margin: auto;
+  text-align: center;
+}
+
+.login-body > * {
+  display: block;
+  margin: auto;
+}
+
+.login-text {
+  font-family: Barlow;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.login-text-instructions{
+  margin-bottom: 20px;
+}
+
+.ptc-logo {
+  width: 134px;
+}
+
+.google-login {
+  width: 100%;
+  margin: 20px 0;
+  height: 70px;
+  border: 1px;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #d5d5d5;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 10% 80% 10%;
+  align-content: center;
+  justify-content: center;
+}
+
+.google-logo {
+  width: 25px;
+  justify-self: end;
+}
+
+input {
+  font-family: barlow;
+  font-size: 18px;
+  display: block;
+  margin: 20px auto;
+  padding: 15px 0;
+  border-radius: 16px;
+  border: 1px solid #d5d5d5;
+}
+
+.input-text {
+  width: 340px;
+  color: #808080;
+  padding-left: 20px;
+}
+
+.input-submit {
+  width: 100%;
+  margin: 30px 0;
+  background: #1b9cf7;
+  color: white;
+  font-weight: 700;
+}
+
+.text-input {
+  width: 360px;
+}
+
+
+.link-text {
+  color: #1b9cf7;
+  letter-spacing: -0.25px;
+}
+
+.inline-child > * {
+  display: inline-block;
+}
+
+.line {
+  background-color: #555555;
+  margin: 15px 0px;
+}
+
+.sign-up-login-text{
+  margin: 0 5px;
+}
+
+.forgot-your-password{
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+
+.forgot-pw-text{
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.forgot-pw-input-email{
+  width: 94%;
+}

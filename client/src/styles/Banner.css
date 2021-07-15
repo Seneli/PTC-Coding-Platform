@@ -1,0 +1,13 @@
+@import url("//db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold");
+
+.banner{
+    background-color:#1B9CF7;
+    padding: 40px;
+}
+
+.banner-text{
+    font-size: 40px;
+    color: white;
+    font-family: LuloCleanW01-OneBold;
+    text-align: center;
+}

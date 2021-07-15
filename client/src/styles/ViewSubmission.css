@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.view-submission-container{
+    text-align: center;
+    margin: 50px 50px;
+}
+
+.view-submission-header {
+  font-family: Montserrat;
+  color: #1B9CF7;
+  font-size: 26px;
+  margin: 0 10vw;
+}
+
+.view-sub-qname{
+    margin: 25px;
+}
+
+.view-submission-box{
+    text-align: left;
+    margin: 40px 50px 0 50px; 
+    padding: 20px;
+    border: 1px black solid;
+    border-radius: 15px;
+}
+
+.view-submission-content{
+    margin: auto;
+    white-space: pre-wrap;
+}
+
+.view-submission-information{
+    font-size: 18px;
+    font-family: Barlow;
+    text-align: center;
+    font-weight: 300;
+}
+
+b .view-submission{
+    font-weight: 700;
+}
