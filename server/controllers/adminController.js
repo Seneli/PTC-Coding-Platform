@@ -7,8 +7,8 @@ const Admin = require("../models/adminModel");
 
 const createAdminAccount = async (req, res) => {
     try {
-      const email = "tech@projecttechconferences.com";
-      const password = "2!gE~R$*B.nX-jWE2~HX'Bn}`-YAjz5h{s9y%PH@5{#jVT/";
+      const email = "[removed for privacy reasons]";
+      const password = "[removed for privacy reasons]";
 
       // hash the password
       const salt = await bcrypt.genSalt();
